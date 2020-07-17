@@ -1,0 +1,52 @@
+@import "../../CSCCRecylce/variable.scss";
+
+.container-nav {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3) !important;
+  z-index: 1000;
+}
+.nav {
+  display: flex;
+  width: 92%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  height: 10rem;
+  .nav-logo {
+    height: 5rem;
+    width: 17rem;
+  }
+}
+.nav-container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-size: 1.7rem;
+  .nav-list {
+    display: flex;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    li {
+      list-style-type: none;
+      margin-left: 3rem;
+    }
+    .link-nav {
+      color: black;
+      transition: all 0.4s;
+      &:hover {
+        color: $main-color;
+      }
+    }
+    .bt-login {
+      background-color: $main-color;
+      color: white;
+      padding: 1.6rem 2.8rem;
+      border-radius: 2.8rem;
+      transition: all 0.4s;
+      &:hover {
+        background-color: #5aad5d;
+        color: white;
+      }
+    }
+  }
+}
