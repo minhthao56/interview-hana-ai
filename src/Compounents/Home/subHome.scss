@@ -1,0 +1,40 @@
+@import "../../CSCCRecylce/variable.scss";
+
+.img-subhome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-subhome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .title-subhome {
+    font-size: 3.8rem;
+    font-weight: 400;
+  }
+  .content-subhome {
+    font-size: 2.4rem;
+    margin-bottom: 4rem;
+  }
+  .bt-subhome {
+    padding: 1rem 2.2rem;
+    background-color: $main-color;
+    color: white;
+    text-align: center;
+    border-radius: 2rem;
+    transition: all 0.4s;
+    &:hover {
+      background-color: #01dfd7;
+    }
+  }
+  .lose {
+    opacity: 0;
+  }
+  .open {
+    opacity: 1;
+
+    transition: all linear 0.5s;
+  }
+}

@@ -1,6 +1,5 @@
 html {
   font-size: 62.5% !important;
-  font-family: "Quicksand", sans-serif !important;
 }
 *,
 *::before,
@@ -11,4 +10,7 @@ html {
 img {
   display: block;
   max-width: 100%;
+}
+body {
+  font-family: "Quicksand", sans-serif !important;
 }
