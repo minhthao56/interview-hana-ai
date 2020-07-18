@@ -11,6 +11,8 @@ import SubHome from "./SubHome";
 import Mean from "./Mean";
 import Benefit from "../Benefit/Benefit";
 import Feature from "../Feature/Feature";
+import ShouldeUse from "../Feature/ShouldUse";
+import Consumer from "../Feature/Consumer";
 
 import "./Home.scss";
 
@@ -77,6 +79,8 @@ export default class Home extends React.Component {
 
         <Element name="features" className="element">
           <Feature />
+          <ShouldeUse />
+          <Consumer />
         </Element>
 
         <Element name="price" className="element">

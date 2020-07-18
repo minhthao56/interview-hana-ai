@@ -1,0 +1,33 @@
+@import "../../CSCCRecylce/variable.scss";
+
+.should {
+  margin-top: 15rem;
+  padding: 8rem 0rem;
+  background-color: #f6fafb;
+  .title-should {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+    h2 {
+      font-size: 3rem;
+      margin: 0;
+    }
+  }
+  .row-shoule {
+    max-width: 1070px;
+    margin: 0 auto !important;
+    text-align: center;
+    img {
+      width: 250px;
+      margin: 0 auto;
+    }
+    h2 {
+      color: $main-color;
+    }
+    p {
+      font-size: 1.6rem;
+    }
+  }
+}
