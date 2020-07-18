@@ -8,9 +8,36 @@ const logoHana =
   "https://hana.ai/wp-content/themes/twentysixteen/templates/logo.png?t=1543586523";
 
 export default class Nav extends React.Component {
+  constructor(props) {
+    super();
+    this.state = {
+      isFixed: false,
+    };
+  }
+
+  componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.handleScroll);
+  }
+  handleScroll = () => {
+    let isScroll = window.scrollY > 50;
+    if (isScroll) {
+      this.setState({ isFixed: true });
+    } else {
+      this.setState({ isFixed: false });
+    }
+  };
+
   render() {
     return (
-      <div className="container-nav">
+      <div
+        className={
+          this.state.isFixed ? "container-nav nav-fixed" : "container-nav"
+        }
+      >
         <nav className="nav">
           <div>
             <img src={logoHana} alt="" className="nav-logo" />

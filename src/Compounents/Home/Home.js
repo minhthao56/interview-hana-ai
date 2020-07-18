@@ -8,6 +8,9 @@ import {
 } from "react-scroll";
 import Nav from "../Nav/Nav";
 import SubHome from "./SubHome";
+import Mean from "./Mean";
+import Benefit from "../Benefit/Benefit";
+import Feature from "../Feature/Feature";
 
 import "./Home.scss";
 
@@ -18,13 +21,9 @@ export default class Home extends React.Component {
   }
 
   componentDidMount() {
-    Events.scrollEvent.register("begin", function () {
-      console.log("begin", arguments);
-    });
+    Events.scrollEvent.register("begin", function () {});
 
-    Events.scrollEvent.register("end", function () {
-      console.log("end", arguments);
-    });
+    Events.scrollEvent.register("end", function () {});
   }
   scrollToTop() {
     scroll.scrollToTop();
@@ -69,14 +68,15 @@ export default class Home extends React.Component {
         <Nav />
         <Element name="home" className="element">
           <SubHome />
+          <Mean />
         </Element>
 
         <Element name="benefit" className="element">
-          Lợi ích
+          <Benefit />
         </Element>
 
         <Element name="features" className="element">
-          Tính năng
+          <Feature />
         </Element>
 
         <Element name="price" className="element">

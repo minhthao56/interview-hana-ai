@@ -1,0 +1,28 @@
+@import "../../CSCCRecylce/variable.scss";
+
+.mean {
+    height: 900px;
+    padding: 100px 0px 150px 0px;
+    display: flex;
+}
+.container-mean {
+    width: 1170px;
+    margin: 0 auto;
+    h2 {
+        font-size: 3rem;
+    }
+    p {
+        font-size: 1.8rem;
+        margin-bottom: 4rem;
+    }
+}
+.bt-free {
+    @include bt-free();
+    width: 250px;
+}
+.col2-mean {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}

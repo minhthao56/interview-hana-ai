@@ -1,0 +1,43 @@
+.benefit {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+.header-benifit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .title-benefit {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+        h2 {
+            font-size: 3rem;
+            margin: 0;
+        }
+    }
+    p {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    h3 {
+        font-weight: 500;
+        font-size: 1.8rem;
+        margin-bottom: 5rem;
+    }
+}
+.col-benefit {
+    text-align: justify;
+    .icon-benefit {
+        margin: 0 auto;
+        width: 80px;
+        height: 80px;
+        margin-bottom: 1.4rem;
+    }
+    p {
+        font-size: 1.6rem;
+    }
+}

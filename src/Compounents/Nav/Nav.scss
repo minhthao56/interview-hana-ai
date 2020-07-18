@@ -3,6 +3,17 @@
 .container-nav {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3) !important;
   z-index: 1000;
+  height: 10rem;
+  display: flex;
+  background-color: white;
+  transition: all 0.2s;
+}
+.nav-fixed {
+  position: fixed;
+  background-color: white;
+  left: 0;
+  right: 0;
+  height: 7rem;
 }
 .nav {
   display: flex;
@@ -10,7 +21,7 @@
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
-  height: 10rem;
+
   .nav-logo {
     height: 5rem;
     width: 17rem;
@@ -36,6 +47,9 @@
       transition: all 0.4s;
       &:hover {
         color: $main-color;
+        font-weight: 700;
+        border-bottom: solid;
+        padding-bottom: 0.5rem;
       }
     }
     .bt-login {
@@ -50,4 +64,10 @@
       }
     }
   }
+}
+.active {
+  color: $main-color !important;
+  font-weight: 700;
+  border-bottom: solid;
+  padding-bottom: 0.5rem;
 }
