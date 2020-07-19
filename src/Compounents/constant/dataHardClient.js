@@ -150,3 +150,51 @@ export const dataReview = [
       "Ngoài giờ hành chính, bạn có thể sử dụng Hana như một trợ thủ đắc lực giúp trả lời, thu thập thông tin cũng như nhu cầu của khách hàng. Từ đó mà giảm tình trạng bỏ sót khách hàng. Đội ngũ bên MIDEAS rất nhiệt tình, hỗ trợ ngày đêm để làm cho phần mềm ngày càng hoàn thiện hơn",
   },
 ];
+
+export const dataPrice = [
+  {
+    title: "TIÊU CHUẨN",
+    price: 0,
+    sub: "Người mới bắt đầu kinh doanh online",
+    color: "color1",
+    list: [
+      "Livechat - Chăm sóc khách hàng tập trung trên tất cả fanpage/website không bỏ sót khách hàng",
+      "Quản lý khách hàng tập trung và thông minh đặc thù theo ngành nghề (có giới hạn)",
+      "Xây dựng kịch bản gửi tin nhắn nuôi dưỡng hàng loạt (re-marketing) tới khách hàng để tăng tỷ lệ chuyển đổi (có giới hạn)",
+      "Chatbot tự động trả lời comment/inbox trên Website và Fanpage Facebook",
+      "Chatbot tự động hoá quy trình kinh doanh với nhiều nhóm công cụ (có giới hạn)",
+    ],
+    urlBg: "https://hana.ai/public/upload/images/yellow.png",
+    subscriber: 0,
+  },
+  {
+    title: "NÂNG CAO",
+    price: 599,
+    sub: "Doanh nghiệp và Hộ kinh doanh online",
+    color: "color2",
+    list: [
+      "Sở hữu đầy đủ tính năng của gói TIÊU CHUẨN",
+      "Quản lý khách hàng tập trung và thông minh theo đặc thù ngành nghề (không giới hạn)",
+      "Xây dựng kịch bản gửi tin nhắn nuôi dưỡng hàng loạt (re-marketing) tới khách hàng cũ để tăng tỷ lệ chuyển đổi (không giới hạn)",
+      "Xây dựng quy trình kinh doanh theo mô hình phễu chuyển đổi và ticket, thống kê chuyên nghiệp phát hiện điểm thất thoát, tăng hiệu quả kinh doanh",
+      "Chatbot tự động hoá quy trình kinh doanh với nhiều nhóm công cụ (có giới hạn)",
+    ],
+    urlBg: "https://hana.ai/public/upload/images/green.png",
+    subscriber: 3000,
+  },
+  {
+    title: "CAO CẤP",
+    price: 2000,
+    sub: "Doanh nghiệp muốn tự động hóa quy trình kinh doanh",
+    color: "color3",
+    list: [
+      "Sở hữu đầy đủ tính năng của gói NÂNG CAO",
+      "Work follow: Hana phối hợp công việc (tư vấn - bán hàng - chăm sóc) với nhân viên các bộ phận của doanh nghiệp",
+      "Viral Bot: Xây dựng kịch bản Viral Bot giúp doanh nghiệp lan toả thương hiệu/sản phẩm/dịch vụ và bùng nổ hàng ngàn khách hàng tiềm năng nhanh chóng",
+      "Kết nối API và đồng bộ dữ liệu tự động với hệ thống sẵn có của doanh nghiệp (ERP/CRM/POS/Website...)",
+      "Triển khai và đào tạo chatbot riêng cho doanh nghiệp (chi phí phát sinh theo nhu cầu, lĩnh vực, ngành nghề của doanh nghiệp)",
+    ],
+    urlBg: "https://hana.ai/public/upload/images/blue.png",
+    subscriber: 5000,
+  },
+];

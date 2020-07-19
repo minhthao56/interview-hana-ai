@@ -16,6 +16,7 @@ import Consumer from "../Feature/Consumer";
 import ImpressNumber from "../Feature/ImpressNumber";
 import Newspager from "../Feature/Newspaper";
 import Review from "../Feature/Review";
+import Pirce from "../Price/Pirce";
 
 import "./Home.scss";
 
@@ -90,7 +91,7 @@ export default class Home extends React.Component {
         </Element>
 
         <Element name="price" className="element">
-          Bảng Giá
+          <Pirce />
         </Element>
         <Element name="blog" className="element">
           Blog
