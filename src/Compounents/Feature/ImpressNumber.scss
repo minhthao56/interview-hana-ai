@@ -1,0 +1,14 @@
+@import "../../CSCCRecylce/variable.scss";
+
+.main-number {
+  img {
+    height: 110px;
+    width: 110px;
+    margin: 0 auto;
+  }
+  h2 {
+    font-size: 4rem;
+    color: $main-color;
+    margin: 0;
+  }
+}

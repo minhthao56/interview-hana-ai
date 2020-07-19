@@ -15,3 +15,7 @@ export const urlImg5 =
   "https://hana.ai/public/upload/images/tinh-nang-0005.png";
 export const urlImg6 =
   "https://hana.ai/wp-content/uploads/2019/02/517483-PIXUJ5-874.png";
+export const urlImgReview =
+  "https://hana.ai/public/upload/images/bg-customer.png";
+export const urlTitleReview =
+  "https://hana.ai/public/upload/images/white-connect-line.png";

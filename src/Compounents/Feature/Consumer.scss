@@ -1,6 +1,43 @@
+.consumer {
+  padding: 8rem 0rem;
+  .title-consumer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h2 {
+      margin: 0;
+      font-size: 3rem;
+    }
+    margin-bottom: 4rem;
+  }
+}
+.row-consumer {
+  max-width: 1100px;
+  padding: 0 1rem;
+  margin: 0 auto !important;
+  text-align: center;
+  .col-consumer,
+  .like-consumer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .like-consumer {
+    flex-direction: row;
+    span {
+      font-size: 1.6rem;
+    }
+  }
+}
 .main-consumer {
   img {
     border-radius: 100%;
     opacity: 0.5;
+    transition: all 0.5s;
+    &:hover {
+      opacity: 1;
+    }
   }
 }

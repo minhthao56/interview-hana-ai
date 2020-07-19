@@ -13,6 +13,9 @@ import Benefit from "../Benefit/Benefit";
 import Feature from "../Feature/Feature";
 import ShouldeUse from "../Feature/ShouldUse";
 import Consumer from "../Feature/Consumer";
+import ImpressNumber from "../Feature/ImpressNumber";
+import Newspager from "../Feature/Newspaper";
+import Review from "../Feature/Review";
 
 import "./Home.scss";
 
@@ -81,6 +84,9 @@ export default class Home extends React.Component {
           <Feature />
           <ShouldeUse />
           <Consumer />
+          <ImpressNumber />
+          <Newspager />
+          <Review />
         </Element>
 
         <Element name="price" className="element">
