@@ -1,0 +1,22 @@
+.mideas {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 5rem 0rem;
+    .title-mideas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h2 {
+            margin: 0;
+            font-size: 3rem;
+        }
+        margin-bottom: 5rem;
+    }
+    b {
+        font-size: 1.6rem;
+    }
+    p {
+        font-size: 1.6rem;
+    }
+}

@@ -17,6 +17,8 @@ import ImpressNumber from "../Feature/ImpressNumber";
 import Newspager from "../Feature/Newspaper";
 import Review from "../Feature/Review";
 import Pirce from "../Price/Pirce";
+import Partner from "../Partner/Partner";
+import Mideas from "../Partner/Mideas";
 
 import "./Home.scss";
 
@@ -93,7 +95,8 @@ export default class Home extends React.Component {
           <Pirce />
         </Element>
         <Element name="partner" className="element">
-          Đối tác
+          <Partner />
+          <Mideas />
         </Element>
         <Element name="contact" className="element">
           Liên Hệ
