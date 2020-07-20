@@ -198,3 +198,91 @@ export const dataPrice = [
     subscriber: 5000,
   },
 ];
+
+export const dataTable = [
+  {
+    feature:
+      "1. Livechat - Chăm sóc khách hàng tập trung trên tất cả fanpage/website",
+    standar: false,
+    advant: false,
+    prime: true,
+    ep: true,
+    head: true,
+  },
+  {
+    feature: "- Quản lý comment và inbox thuận tiện",
+    standar: true,
+    advant: true,
+    prime: true,
+    ep: true,
+    head: false,
+  },
+  {
+    feature:
+      "- Lọc cuộc chat theo nhiều điều kiện: Fanpage, Comment, Inbox, Thời gian tương tác, Có số điện thoại, Chưa đọc....",
+    standar: true,
+    advant: true,
+    prime: true,
+    ep: true,
+    head: false,
+  },
+  {
+    feature:
+      "- Gộp fanpage quản lý tập trung trong 1 ứng dụng và trên 1 màn hình",
+    standar: true,
+    advant: true,
+    prime: true,
+    ep: true,
+    head: false,
+  },
+  {
+    feature: "2. Quản lý khách hàng thông minh đặc thù theo ngành nghề",
+    standar: true,
+    advant: true,
+    prime: true,
+    ep: true,
+    head: true,
+  },
+  {
+    feature:
+      "- Quản lý tập trung khách hàng comment và inbox trên tất cả fanpage",
+    standar: true,
+    advant: false,
+    prime: true,
+    ep: true,
+    head: false,
+  },
+  {
+    feature: "- Nhập mới khách hàng thủ công từ nguồn ngoài vào",
+    standar: true,
+    advant: true,
+    prime: true,
+    ep: true,
+    head: false,
+  },
+  {
+    feature: "- Lọc khách hàng theo nhiều điều kiện tiện lợi",
+    standar: true,
+    advant: true,
+    prime: true,
+    ep: true,
+    head: false,
+  },
+  {
+    feature: "- Quản lý vòng đời khách hàng thông minh",
+    standar: true,
+    advant: true,
+    prime: true,
+    ep: true,
+    head: false,
+  },
+  {
+    feature:
+      "- Thêm mới trường thông tin khách hàng tuỳ theo ngành nghề với nhiều cấp độ lưu trữ",
+    standar: true,
+    advant: true,
+    prime: true,
+    ep: true,
+    head: false,
+  },
+];

@@ -89,18 +89,14 @@ export default class Home extends React.Component {
           <Newspager />
           <Review />
         </Element>
-
         <Element name="price" className="element">
           <Pirce />
         </Element>
-        <Element name="blog" className="element">
-          Blog
+        <Element name="partner" className="element">
+          Đối tác
         </Element>
         <Element name="contact" className="element">
           Liên Hệ
-        </Element>
-        <Element name="partner" className="element">
-          Đối tác
         </Element>
       </div>
     );

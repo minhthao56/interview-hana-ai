@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Price.scss";
 import { Row, Col } from "antd";
 
 import { urlTtitle } from "../constant/constant";
 import { dataPrice } from "../constant/dataHardClient";
+import Table from "./Table";
 
 export default function Pirce() {
+  const [isShowTable, setIsShowTable] = useState(false);
+
+  const handleShowTable = () => {
+    setIsShowTable(!isShowTable);
+  };
+
   return (
     <div className="pirce">
       <div className="title-pirce">
@@ -76,9 +83,13 @@ export default function Pirce() {
           thêm
         </p>
         <h2>
-          So sánh tính năng của các gói <b>( Chi tiết )</b>
+          So sánh tính năng của các gói{" "}
+          <b onClick={handleShowTable} style={{ cursor: "pointer" }}>
+            ( Chi tiết )
+          </b>
         </h2>
       </div>
+      {isShowTable && <Table />}
     </div>
   );
 }
